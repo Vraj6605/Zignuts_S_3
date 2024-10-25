@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebPage</title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+    }
+    .header{
+      padding: 10px 10px;
+      background-color: black;
+      color: white;
+    }
+
+    .header ul {
+      text-align: center;
+    }
+
+    .header ul li{
+      display: inline-block;
+      margin: 0px 90px;
+      font-size: 18px;
+    }
+
+    #logo{
+      color: orange;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .box{
+      width: 100px;
+      height: 100px;
+      border: 2px solid black;
+      margin: 20px 20px;
+    }
+    #box1{
+      background-color: rgba(102, 51, 153,.5);
+    }
+    #box2{
+      background-color: rgba(78, 153, 51,.5);
+    }
+    #box3{
+      background-color: rgba(153, 51, 63,.5);
+    }
+
+    .content{
+      height: 600px;
+      background-color: cadetblue;
+      padding: 20px;
+      border-bottom: 5px solid black;
+    }
+
+    h3{
+      text-align: center;
+      padding: 10px 0px;
+      background-color: rgb(0, 0, 0);
+      color: white;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+  </style>
+</head>
+<body>
+
+
+  <div class="header">
+    <ul>
+      <li id="logo">amazon.in</li>
+      <li>Account</li>
+      <li>Mycart</li>
+      <li>ContactUs</li>
+      <li>
+        <input placeholder="search Amazon.in" style="margin-right: 10px;padding: 0px 5px;" type="text"><button style="background-color: orange; color: white;padding:0px 8px; ">Search</button></li>
+      </li>
+    </ul>
+  </div>
+
+
+  <div class="content">
+      <div class="box" id="box1"></div>
+      <div class="box" id="box2"></div>
+      <div class="box" id="box3"></div>
+  </div>
+
+
+  <div class="footer">
+    <h3>&copy; Copyright by Vraj Makwana. - 2024</h3>
+  </div>
+
+</body>
+</html>
