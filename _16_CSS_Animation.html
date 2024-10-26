@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlexBox</title>
+  <style>
+    @keyframes rotateBox {
+      from{
+       transform: rotate(0deg);
+       
+      }
+      to{
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes scaleBox {
+      from{
+       transform: scale(1);
+      }
+      to{
+        transform: scale(1.5);
+      }
+    }
+
+    .con{
+      width: 80px;
+      height: 80px;
+      background-color: black;
+      display: flex;
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+      margin-top: 100px;
+      border-radius: 40%;
+      animation-name: rotateBox;
+      animation-duration: 1s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      
+    }
+    .box{
+      background-color: rgb(255, 255, 255);
+      width: 40px;
+      height: 40px;
+      border-radius: 4px;
+      animation-name: scaleBox;
+      animation-duration: 1s;
+      animation-timing-function: ease-in;
+      animation-iteration-count: infinite;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    
+  </style>
+</head>
+<body>
+  <div class="con">
+    <div class="box">
+      <h1>V</h1>
+    </div>
+  </div>
+</body>
+</html>
