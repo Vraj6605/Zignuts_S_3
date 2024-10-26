@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      background-color: rgb(0, 0, 0);
+    }
+    .box{
+      width: 200px;
+      height: 200px;
+      border: 2px solid rgb(133, 0, 122);
+      background-color: rgba(62, 233, 204, 0.728);
+    }
+
+    h1{
+      text-shadow: 10px 10px 10px black;
+    }
+
+    .con{
+      height:48vh;
+      margin: auto;
+      margin-top: 202px;
+      width:74vw;
+      background-color: red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 70px;
+      color: white;
+      font-family:cursive;
+    }
+
+    #box1{
+      position: fixed;
+      top: 0;
+      left: 0;
+      border-radius: 60%;
+      border-top-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+    }
+    #box2{
+      position: fixed;
+      top: 0;
+      right: 0;
+      border-radius: 60%;
+      border-bottom-left-radius: 0px;
+      border-top-right-radius: 0px;
+    }
+    #box3{
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      border-radius: 60%;
+      border-bottom-left-radius: 0px;
+      border-top-right-radius: 0px;
+    }
+    #box4{
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      border-radius: 60%;
+      border-top-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="con">
+    <h1>Vraj Makvana</h1>
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+  </div>
+
+</body>
+</html>

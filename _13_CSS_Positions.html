@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Postions</title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+    }
+    .box{
+      width: 200px;
+      height: 200px;
+      border-radius: 20px;
+      border-radius: 2px solid tomato;
+      margin: 10px;
+      display: inline-block;
+    }
+
+    /* .con{
+      position: relative;
+      margin: 200px;
+    } */
+
+    #box1{
+      background-color: brown;
+      position: relative;
+      top: 50px;
+    }
+    #box2{
+      background-color: blue;
+      position: absolute;
+      top: 10px;
+    }
+    #box3{
+      background-color: violet;
+      position: fixed;
+      top: 0px;
+      right: 0px;
+      margin: 0px;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border-bottom-left-radius: 0px;
+      border-top-right-radius: 0px;
+    }
+    #box4{
+      background-color: rgb(37, 214, 64);
+      position: sticky;
+      bottom: 20px;
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="con">
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+    
+    
+
+  </div>
+</body>
+</html>
